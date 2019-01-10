@@ -1,0 +1,17 @@
+{
+  "name": "anita2.0",
+  "version": "1.0.0",
+  "description": "Simple Restaurant",
+  "main": "index.html",
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run lite",
+    "lite":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Sunday",
+  "license": "ISC"
+}

@@ -14,3 +14,16 @@ body{
     background-color: #611224;
     font-family: Raleway;
 }
+
+#header-nav{
+    background-color: #fb3;
+    border-radius:0;
+    border:0;
+}
+
+#logo-img{
+    background: url("../img/logoBig.png");
+    width: 284px;
+    height: 286px;
+    margin: 10px 15px 10px 0;
+}

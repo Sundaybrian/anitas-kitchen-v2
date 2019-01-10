@@ -1,0 +1,16 @@
+@font-face{
+    src: url("../fonts/Raleway-Regular.ttf");
+    font-family: Raleway;
+}
+
+@font-face{
+    src: url("../fonts/Muli-Regular.ttf");
+    font-family: Muli;
+}
+
+body{
+    font-size: 16px;
+    color: floralwhite;
+    background-color: #611224;
+    font-family: Raleway;
+}

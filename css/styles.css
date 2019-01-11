@@ -120,7 +120,7 @@ body{
 }
 
 /* ************medium devices************** */
-@media (min-width:992px) and(max-width:1199px){
+@media (min-width:992px) and (max-width:1199px){
 
     /* header */
     #logo-img{

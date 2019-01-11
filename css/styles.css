@@ -23,9 +23,9 @@ body{
 }
 
 #logo-img{
-    background: url("../img/logoBig.png");
-    width: 284px;
-    height: 286px;
+    /* background: url("../img/logoBig.png"); */
+    width: 150px;
+    height: 150px;
     margin: 10px 15px 10px 0;
 }
 
@@ -49,14 +49,14 @@ body{
     text-decoration: none;
 }
 
-.navbar-brand p{
+.navbar-brand p{/* nairobi cert cert */
     color: #000;
     text-transform: uppercase;
     font-size: .7em;
     margin-top: 15px;
 }
 
-.navbar-brand p span{
+.navbar-brand p span{/* star */
     vertical-align: middle;
 }
 
@@ -100,4 +100,52 @@ body{
     clear: both;
     margin-top:-30px;
 }
+
+/* header end */
+
+/* ************large devices************** */
+
+@media(min-width:1200px){
+
+}
+
+/* ************medium devices************** */
+@media (min-width:992px) and(max-width:1199px){
+
+    /* header */
+    #logo-img{
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0px;
+    }
+}
+/* ************small devices************** */
+
+@media(min-width:768px) and (max-width:991px){
+
+}
+/* ************xs devices************** */
+
+@media(max-width:767px){
+    /* header */
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+
+    .navbar-brand h1{ /*restaurant name*/
+        padding-top: 10px;
+        font-size:5vw;
+    }
+
+    .navbar-brand p{ /*nairobi cert*/
+        margin-top: 12px;
+        font-size: .6em;
+    }
+
+    .navbar-brand p img{ /*star k*/
+        height: 20px;
+    }
+}
+/* ************large devices************** */
 

@@ -240,6 +240,12 @@ body{
         padding: 0;
     }
 
+    #menu-tile,#specials-tile{
+        margin: 0 auto 15px;    /*fix for images being centered and having space
+                                    on either side */
+        width: 360px;              
+    }
+
     
 }
 

@@ -121,6 +121,34 @@ body{
 .tiles:hover{
     box-shadow: 0 1px 5px 1px #cccccc;
 }
+
+#menu-tile{
+    background: url("../img/menu-tile.jpg") no-repeat;
+    background-position: center;
+}
+
+#specials-tile{
+    background: url("../img/specials-tile.jpg") no-repeat;
+    background-position: center;
+
+}
+
+.tiles > span{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size:1.6em;
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+    opacity: .8;
+
+}
+
+
+
 /* end home page  */
 
 /* ************large devices************** */

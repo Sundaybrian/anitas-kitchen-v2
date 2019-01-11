@@ -103,11 +103,54 @@ body{
 
 /* header end */
 
-/* home page jumbotron */
+/* home page  */
 .container .jumbotron{
     box-shadow: 0 0 50px #3f0c1f;
     border:2px solid #3f0c1f;
 }
+
+
+.tiles{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+
+.tiles:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile{
+    background: url("../img/menu-tile.jpg") no-repeat;
+    background-position: center;
+}
+
+#specials-tile{
+    background: url("../img/specials-tile.jpg") no-repeat;
+    background-position: center;
+
+}
+
+.tiles > span{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size:1.6em;
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+    opacity: .8;
+
+}
+
+
+
+/* end home page  */
 
 /* ************large devices************** */
 
@@ -198,7 +241,33 @@ body{
         padding: 0;
     }
 
+    #menu-tile,#specials-tile{
+        margin: 0 auto 15px;    /*fix for images being centered and having space
+                                    on either side */
+        width: 360px;              
+    }
+
     
 }
+
+/* ***fix for upt0 479px**** */
+/*************extra small devices only****************** */
+@media(max-width:479px){
+    .navbar-brand h1{/*restaurant name*/
+        padding-top:5px; 
+        font-size:6vw;
+
+    }
+
+    #menu-tile,#specials-tile{
+        width: 280px;
+        margin: 0 auto 15px;
+
+    }
+
+
+}
+
+
 
 

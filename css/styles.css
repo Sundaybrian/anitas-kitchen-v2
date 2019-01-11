@@ -109,6 +109,7 @@ body{
     border:2px solid #3f0c1f;
 }
 
+
 .tiles{
     height: 250px;
     width: 100%;
@@ -248,5 +249,25 @@ body{
 
     
 }
+
+/* ***fix for upt0 479px**** */
+/*************extra small devices only****************** */
+@media(max-width:479px){
+    .navbar-brand h1{/*restaurant name*/
+        padding-top:5px; 
+        font-size:6vw;
+
+    }
+
+    #menu-tile,#specials-tile{
+        width: 280px;
+        margin: 0 auto 15px;
+
+    }
+
+
+}
+
+
 
 

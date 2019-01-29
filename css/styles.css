@@ -250,6 +250,12 @@ body {
 .menu-item-tile .menu-item-price{
     font-size: 1.1em;
     text-align: right;
+    /* fix for the price having a margin btwn the
+    bottom og the image and the top of the menu-item price
+    push left -15px and push bottom -15px */
+    margin-top: -15px;
+    margin-right: -15px;
+  
 }
 
 .menu-item-tile .menu-item-price span{
@@ -403,6 +409,26 @@ h3.menu-item-title{
                                     on either side */
         width: 360px;
     }
+
+    /* singles-category */
+
+     /*fix for menu-item photo being pulled to the right at this view port
+      and menu-item description being pulled to the left */
+    .menu-item-photo {
+         margin-right: auto; 
+    
+      }
+
+      .menu-item-tile .menu-item-price {
+        text-align: center;
+        
+      }
+
+      .menu-item-description {
+        text-align: center;
+      }
+
+        /* singles-category end*/
 
     /* footer */
     .panel-footer section {

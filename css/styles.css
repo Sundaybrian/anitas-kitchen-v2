@@ -238,16 +238,16 @@ body {
 
 
 /* ***********single-category******************* */
-.menu-item-tile{
+.menu-item-tile {
     margin-bottom: 25px;
 
 }
 
-.menu-item-tile hr{
+.menu-item-tile hr {
     width: 80%;
 }
 
-.menu-item-tile .menu-item-price{
+.menu-item-tile .menu-item-price {
     font-size: 1.1em;
     text-align: right;
     /* fix for the price having a margin btwn the
@@ -255,15 +255,15 @@ body {
     push left -15px and push bottom -15px */
     margin-top: -15px;
     margin-right: -15px;
-  
+
 }
 
-.menu-item-tile .menu-item-price span{
+.menu-item-tile .menu-item-price span {
     font-size: .6em;
 
 }
 
-.menu-item-photo{
+.menu-item-photo {
     position: relative;
     border: 2px solid #3f0c1f;
     overflow: hidden;
@@ -275,7 +275,7 @@ body {
 
 }
 
-.menu-item-photo div{
+.menu-item-photo div {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -285,11 +285,11 @@ body {
 
 }
 
-.menu-item-description{
+.menu-item-description {
     padding-right: 30px;
 }
 
-h3.menu-item-title{
+h3.menu-item-title {
     margin: 0 0 10px;
 
 }
@@ -297,7 +297,7 @@ h3.menu-item-title{
 .menu-item-details {
     font-size: .9em;
     font-style: italic;
-  }
+}
 
 
 
@@ -412,23 +412,23 @@ h3.menu-item-title{
 
     /* singles-category */
 
-     /*fix for menu-item photo being pulled to the right at this view port
+    /*fix for menu-item photo being pulled to the right at this view port
       and menu-item description being pulled to the left */
     .menu-item-photo {
-         margin-right: auto; 
-    
-      }
+        margin-right: auto;
 
-      .menu-item-tile .menu-item-price {
+    }
+
+    .menu-item-tile .menu-item-price {
         text-align: center;
-        
-      }
 
-      .menu-item-description {
+    }
+
+    .menu-item-description {
         text-align: center;
-      }
+    }
 
-        /* singles-category end*/
+    /* singles-category end*/
 
     /* footer */
     .panel-footer section {
@@ -466,8 +466,8 @@ h3.menu-item-title{
         margin: 0 auto 15px;
 
     }
-    
-/* fix for the cols not stacking for super small size screens */
+
+    /* fix for the cols not stacking for super small size screens */
     .col-xxs-12 {
         position: relative;
         min-height: 1px;

@@ -235,6 +235,20 @@ body {
 /* ***********menu-categories end******************* */
 
 
+
+
+/* ***********single-category******************* */
+.menu-item-tile{
+    margin-bottom: 25px;
+
+}
+
+
+
+/* ***********single-category end******************* */
+
+
+
 /* ************large devices************** */
 
 @media(min-width:1200px) {

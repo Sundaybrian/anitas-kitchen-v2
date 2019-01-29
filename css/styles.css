@@ -376,6 +376,7 @@ body {
         margin: 0 auto 15px;
 
     }
+    
 /* fix for the cols not stacking for super small size screens */
     .col-xxs-12 {
         position: relative;
